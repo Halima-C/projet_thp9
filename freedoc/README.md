@@ -26,10 +26,16 @@ Things you may want to cover:
 Bonjour,
 
 Merci de vous assurer d'avoir la bonne version Ruby 2.5.1 ou 2.7.1 ainsi que Rails 5.2.4.2.
+Pensez au bundle install ou à modifier le fichier Gemfile si besoin :)
+
 
 Voici une application qui vous permettra de prendre un RDV avec un docteur dans votre ville.
 
 Bon retablissement.
+
+faire rails db:migrate pour passer les migrations en up
+faire rails db:seed
+vérifier ensuite dans la console le résultat avec par exemple un Doctor.all
 
 
 
