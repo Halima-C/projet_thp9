@@ -30,3 +30,7 @@ Merci de vous assurer d'avoir la bonne version Ruby 2.5.1 ou 2.7.1 ainsi que Rai
 Voici une application qui vous permettra de faire promener votre chien par un expert canin.
 
 Bon débarras.
+
+Faire rails db:migrate pour passer les migrations en up
+Faire rails db:seed
+vérifier ensuite dans la console le résultat avec par exemple un "tp City.all"
